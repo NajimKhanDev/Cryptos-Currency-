@@ -1,12 +1,49 @@
-# React + Vite
+A React.js Crypto Tracker App with live API, routing, and currency switcher using Context API and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ 💰 Crypto Tracker App
 
-Currently, two official plugins are available:
+A modern and responsive web application to track real-time cryptocurrency prices and view detailed information using React.js, CoinGecko API, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- React Router DOM
+- Context API
+- Axios
+- Tailwind CSS
+- CoinGecko API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Features
+
+- Live coin data fetched from CoinGecko
+- Currency selector (INR, USD, EUR) using Context API
+- Dynamic routing: `/coin/:id`
+- Detailed coin info on click
+- Responsive UI using Tailwind CSS
+- Reusable components (Navbar, Footer)
+- Clean and modern layout
+
+## 📁 Folder Structure
+
+src/
+├── App.jsx
+├── Main.jsx
+├── Context/
+│ └── Context.jsx
+├── Pages/
+│ ├── Home/
+│ └── Coin/
+├── Components/
+│ ├── Navbar.jsx
+│ └── Footer.jsx
+
+
+## 🖼️ Screenshots
+
+(<img width="1746" height="893" alt="Screenshot 2025-07-23 143510" src="https://github.com/user-attachments/assets/5a19ac67-6629-4d92-b94e-b1d40af57aa2" />
+)
+
+## 🚀 Live Demo
+
+[Click here to view](https://your-live-link.netlify
+.app)  
