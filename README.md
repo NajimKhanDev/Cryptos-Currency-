@@ -45,5 +45,4 @@ src/
 
 ## 🚀 Live Demo
 
-[Click here to view](https://your-live-link.netlify
-.app)  
+[Click here to view](https://app.netlify.com/projects/najimcrypto/overview)  
